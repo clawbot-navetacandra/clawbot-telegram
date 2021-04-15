@@ -56,8 +56,4 @@ module.exports = {
             if (err) console.error(`syntax error while loading 'message.js'\n${err}`)
         })
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> cf93c99 (-_-)

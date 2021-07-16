@@ -10,7 +10,7 @@ require('./config').config();
 
     server()
 
-    const app = new Telegraf('1786024151:AAEWWKFThOKFd4eIgykN1johGK25lIJIw8s');
+    const app = new Telegraf(process.env.TOKEN);
     app.launch();
 
     // app.on('message', msg => msg.replyWithPhoto)
